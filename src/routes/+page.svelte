@@ -5,7 +5,7 @@
 <svelte:head>
 	<title>Rohin Sood</title>
 	<meta name="rohinsood" content="noindex nofollow" />
-	<html lang="en" />
+	<html lang="en"></html>
 </svelte:head>
 
 <svg id="svg" width="100%" height="100%" viewBox="0 0 1384 552" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,8 +21,8 @@
       <h1 class="name">
         rohin sood
       </h1>
-      <p class="ml-1 sm:pt-4 pt-0">
-        Hi, I'm a schooler motivated by the vast applications of STEM in robotics and technology to help myself and those around me learn.
+      <p class="m-0 p-0 pl-2 pb-4">
+        Explaining the world around me using science and computers.
       </p>
       <div class="icon-container">
         <a href="mailto:rs.rohinsood@gmail.com">
@@ -43,15 +43,15 @@
 <style lang="postcss">
   @reference "tailwindcss";
 
-  .path {
+  path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: dash 30s linear forwards;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
   }
-}
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
 </style>
